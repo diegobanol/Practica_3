@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ejercicio4</string>
+
+    <string name="titulo">Figure select</string>
+    <string name="radio1">Square</string>
+    <string name="radio2">Rectangle</string>
+    <string name="radio3">Triangle</string>
+    <string name="radio4">Circle</string>
+    <string name="medida">Meters </string>
+    <string name="primer">Side: </string>
+    <string name="area">Area: </string>
+    <string name="res">result</string>
+    <string name="action_settings">Settings</string>
+</resources>

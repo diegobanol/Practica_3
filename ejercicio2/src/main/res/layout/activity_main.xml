@@ -1,0 +1,130 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/silver">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue"/>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:text="@string/primer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:gravity="left"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/num1"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:text="@string/segundo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:gravity="left"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/num2"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:id="@+id/operacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/runo"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="@string/uno"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rdos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:text="@string/dos"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rtres"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tres"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rcuatro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:text="@string/cuatro"
+            android:textSize="25sp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_marginLeft="20dp"
+            android:text="@string/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/res"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/resultado"
+            android:textSize="20sp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,250 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/silver">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="@string/primer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/num1"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="@string/segundo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/num2"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:id="@+id/sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rhom"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="@string/uno"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/rmu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:text="@string/dos"
+            android:textSize="15sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="@string/tercero"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/num3"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:textSize="15sp"
+            android:onClick="showTimePickerDialog"
+            android:editable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="@string/cuarto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:layout_marginRight="10dp"
+            android:id="@+id/num4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:entries="@array/ciudades_colombia"
+            android:prompt="@string/country_prompt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/quinto"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/boton"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textSize="13sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+
+            android:id="@+id/hobbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/runo"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:text="@string/tres"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/rdos"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="@string/cuatro"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/rtres"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="@string/cinco"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/rcuatro"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="@string/seis"
+                android:textSize="15sp"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/s2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/s3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/s4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/s5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/s6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

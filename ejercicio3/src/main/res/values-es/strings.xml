@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejercicio3</string>
+
+    <string name="titulo">Notas</string>
+    <string name="primer">Quices: </string>
+    <string name="segundo">Exposiciones: </string>
+    <string name="tercero">Practica: </string>
+    <string name="cuarto">Proyecto: </string>
+    <string name="fina">Definitiva</string>
+    <string name="def">0.0</string>
+    <string name="action_settings">Settings</string>
+</resources>

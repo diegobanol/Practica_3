@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ejercicio2</string>
+
+    <string name="titulo">Calculadora</string>
+    <string name="primer">Num 1: </string>
+    <string name="segundo">Num 2: </string>
+    <string name="uno">Suma</string>
+    <string name="dos">Resta</string>
+    <string name="tres">Producto</string>
+    <string name="cuatro">Division</string>
+    <string name="boton">Calcular</string>
+    <string name="resultado">Resultado</string>
+</resources>

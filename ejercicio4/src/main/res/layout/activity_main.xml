@@ -1,0 +1,131 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkseagreen">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue"/>
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:id="@+id/seleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/radio1"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/radio2"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/radio3"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/radio4"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_marginLeft="25dp"
+            android:text="@string/primer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/num1"
+            android:layout_marginLeft="15dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_marginLeft="25dp"
+            android:text="@string/primer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/num2"
+            android:layout_marginLeft="15dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/area"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/res"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="bottom"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

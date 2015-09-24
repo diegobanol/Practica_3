@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ejercicio5</string>
+
+    <string name="titulo">Registro</string>
+    <string name="primer">Nombre: </string>
+    <string name="segundo">Documento: </string>
+    <string name="tercero">Nacimiento: </string>
+    <string name="cuarto">Ciudad: </string>
+    <string name="uno">Masculino</string>
+    <string name="dos">Femenino</string>
+    <string name="tres">Deporte</string>
+    <string name="cuatro">Lectura</string>
+    <string name="quinto">Hobbie</string>
+    <string name="boton">Enviar</string>
+    <string name="cinco">Videojuegos</string>
+    <string name="seis">Cine</string>
+    <string name="pick_data">Fecha</string>
+    <string name="action_settings">Settings</string>
+    <string name="country_prompt">Ciudad</string>
+    <string-array name="ciudades_colombia">
+        <item>Medellin</item>
+        <item>Bogota</item>
+        <item>Barranquilla</item>
+        <item>Pasto</item>
+        <item>Santa Marta</item>
+        <item>La Perla</item>
+        <item>Armenio</item>
+        <item>Cali</item>
+    </string-array>
+</resources>
